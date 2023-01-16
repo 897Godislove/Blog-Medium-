@@ -1,0 +1,129 @@
+*{
+  /* margin: 0; */
+}
+a{
+  /* text-decoration: none; */
+}
+.App {
+  text-align: center;
+}
+body{
+  font-family:'Times New Roman', Times, serif;
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 256px;
+  box-shadow: 0 0 15px 5px rgba(231, 233, 235, 0.8);
+  border-radius: 5px;
+  height: 100%;
+}
+.body2{
+  padding: 80px;
+}
+.intro-text{
+  margin-top: 0;
+  padding: 50px 0px;
+  font-weight: 500;
+  font-size: 30px;
+}
+.p-tags{
+  display: flex;
+  border: 1px solid rgb(189, 182, 182);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 190px;
+  height: 40px;
+  padding: 0px 15px;
+  margin: 8px 0;
+  text-align: left;
+  cursor: pointer;
+}
+.p-tags a{
+  text-decoration: none;
+  color: black;
+}
+.icon{
+  font-size: 20px;
+  margin: 10px 0;
+}
+.text{
+  margin: 11px 10px;
+  /* padding-bottom: 55px; */
+}
+.end-text{
+  margin: 35px 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+}
+.end-text a{
+  color: rgb(17, 151, 81);
+  font-weight: 600;
+  text-decoration: none;
+}
+footer{
+  width: 450px;
+  margin: 30px 0;
+  font-size: 14px;
+  color: rgb(132, 131, 131);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer a{
+  color: rgb(132, 131, 131);
+}
+.last{
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+
+.desc{
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 10px;
+  color: rgb(69, 67, 67);
+  width: 68%;
+  line-height: 25px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.items{
+  margin: 8px;
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: none;
+}
+.next{
+  border-bottom: 1px solid rgb(148, 144, 144);
+  width: 270px;
+}
+.but{
+  padding: 8px;
+  margin: 30px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.end{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.end a{
+  color: rgb(17, 151, 81);
+  text-decoration: none;
+}
+
+/* @media (max-width: 400px) {
+  footer {
+    width: 20px;
+  }
+} */
