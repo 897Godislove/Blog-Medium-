@@ -1,9 +1,9 @@
 // import './App.css';
 import {Routes, Route } from "react-router-dom"
-import { Create } from './components/Create';
-import { CreateEmail } from './components/CreateEmail';
-import { Signin } from './components/Signin';
-import { SigninEmail } from './components/SigninEmail';
+import { Create } from './components/pages/Create';
+import { CreateEmail } from './components/pages/CreateEmail';
+import { Signin } from './components/pages/Signin';
+import { SigninEmail } from './components/pages/SigninEmail';
 
 function App() {
   return (
